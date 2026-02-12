@@ -67,7 +67,6 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// Update category
 router.put('/:id', async (req, res) => {
   try {
     const { id } = req.params;
